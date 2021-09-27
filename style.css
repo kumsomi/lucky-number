@@ -3,6 +3,10 @@
     --primary-color:#082032;
     --secondary-color:#F0A500;
 }
+*{
+    margin:0;
+    padding:0;
+}
 body{
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -18,8 +22,7 @@ h1{
 }
 input, label{
     display: block;
-    font-size: 1rem;
-    
+    font-size: 1rem;  
 }
 
 input{
@@ -39,4 +42,19 @@ input{
     border: 1px solid var(--secondary-color);
     color: var(--secondary-color);
     padding: 0.5rem;
+}
+.footer{
+    text-align: center;
+}
+.non-bullet{
+    list-style-type: none;
+    padding: 1rem;
+}
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
